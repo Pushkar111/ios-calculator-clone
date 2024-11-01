@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>IOS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <img src="images/iPhone15ProMax.png" alt="iPhone15ProMax.png">
+        <div class="container">
+            <div class="panel">
+                <p class="result">0</p>
+            </div>
+
+            <table>
+                <tr>
+                    <td><button id="ac" class="btn especial">AC</button></td>
+                    <td><button type="button" id="sign" class="btn especial">+/-</button></td>
+                    <td><button type="button" id="percentage" class="btn especial">%</button></td>
+                    <td><button type="button" id="division" class="btn operator">/</button></td>
+                </tr>
+
+                <tr>
+                    <td><button type="button" id="seven" class="btn number">7</button></td>
+                    <td><button type="button" id="eight" class="btn number">8</button></td>
+                    <td><button type="button" id="nine" class="btn number">9</button></td>
+                    <td><button type="button" id="multiplication" class="btn operator">x</button></td>
+                </tr>
+
+                <tr>
+                    <td><button type="button" id="four" class="btn number">4</button></td>
+                    <td><button type="button" id="five" class="btn number">5</button></td>
+                    <td><button type="button" id="six" class="btn number">6</button></td>
+                    <td><button type="button" id="subtraction" class="btn operator">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button type="button" id="one" class="btn number">1</button></td>
+                    <td><button type="button" id="two" class="btn number">2</button></td>
+                    <td><button type="button" id="three" class="btn number">3</button></td>
+                    <td><button type="button" id="addition" class="btn operator">+</button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <button type="button" id="zero" class="btn number">
+                            <p id="zero-text">0</p>
+                        </button>
+                    </td>
+                    <td><button type="button" id="point" class="btn decimal">.</button></td>
+                    <td><button type="button" id="equal" class="btn operator">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Developed by Pushkar Modi</p>
+        <p>
+            Link to
+            <a href="https://github.com/Pushkar111/ios-calculator-clone.git" target="_blank" rel="noopener"
+                class="github-link">GitHub Repository</a>
+        </p>
+    </footer>
+
+    <!-- JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
